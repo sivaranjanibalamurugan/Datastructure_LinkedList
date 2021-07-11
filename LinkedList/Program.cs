@@ -14,7 +14,7 @@ namespace LinkedList
             Console.WriteLine("Before Deleting");
             linkedList.DisplayList();
             Console.WriteLine("After deleting");
-            linkedList.DeleteFirst();
+            linkedList.DeleteLast();
             linkedList.DisplayList();
             Console.Read();
         }
