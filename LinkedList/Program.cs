@@ -11,11 +11,6 @@ namespace LinkedList
             linkedList.AddFirst(70);
             linkedList.AddFirst(30);
             linkedList.AddFirst(56);
-            Console.WriteLine("Before Deleting");
-            linkedList.DisplayList();
-            linkedList.DisplayList();
-            Console.WriteLine("After deleting");
-            linkedList.DeleteNode(30);
             linkedList.DisplayList();
             Console.Read();
            
