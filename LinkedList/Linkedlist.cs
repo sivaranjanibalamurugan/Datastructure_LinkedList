@@ -100,6 +100,24 @@ namespace LinkedList
                 head = head.Next;
             }
         }
+       public void DeleteLast()
+        {
+           
+            if (head == null)
+            {
+                Console.WriteLine("No element is in the list");
+            }
+            //checking for the next of the node is null. 
+            else
+            {
+                Node<T> temp = head;
+                while (temp.Next.Next != null)
+                {
+                    temp = temp.Next;
+                }
+                temp.Next = null;
+            }
+        }
 
 
         //method to display the element 
