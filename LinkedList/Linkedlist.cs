@@ -118,6 +118,27 @@ namespace LinkedList
                 temp.Next = null;
             }
         }
+        public int SearchNode(T value)
+        {
+            if (head == null)
+            {
+                return 0;
+            }
+            else
+            {
+                Node<T> temp = head;
+                while (temp.Next != null && !(temp.value.Equals(value)))
+                {
+                    temp = temp.Next;
+                }
+                if (temp.value.Equals(value))
+                {
+                    return 1;
+                }
+                return 0;
+            }
+        }
+
 
 
         //method to display the element 

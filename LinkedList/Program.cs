@@ -11,11 +11,13 @@ namespace LinkedList
             linkedList.AddFirst(70);
             linkedList.AddFirst(30);
             linkedList.AddFirst(56);
-            Console.WriteLine("Before Deleting");
+            //Console.WriteLine("Before Deleting");
             linkedList.DisplayList();
-            Console.WriteLine("After deleting");
-            linkedList.DeleteLast();
-            linkedList.DisplayList();
+            // Console.WriteLine("After deleting");
+            //linkedList.DeleteLast();
+            linkedList.SearchNode(56);
+            //linkedList.DisplayList();
+
             Console.Read();
         }
     }
